@@ -1,0 +1,13 @@
+p {
+  /* rgb(red, green, blue) */
+  color: rgb(0, 0, 0);
+  /* rgba(red, green, blue, alpha) */
+  background-color: rgba(0, 0, 255, 0.2);
+}
+/* 
+her biri 255-e qeder qiymetler alir, 
+rgb(0, 0, 0) bele olduqda qara reng olur
+rgb(255, 255, 255) olduqda ise ag reng
+
+alpha ise 0 ile 1 arasinda qiymetler alir, ve bu şəffaflığı gosterir
+*/

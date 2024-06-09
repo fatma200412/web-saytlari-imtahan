@@ -1,0 +1,13 @@
+/* class- ancaq heading1 olanlari secir */
+.heading1 {
+  color: red;
+}
+/* p elementinde  class atributu olan elemenetleri secir */
+p[class] {
+  color: yellow;
+}
+/* container divin icinde olan her bir seyi secir */
+.container {
+  background-color: aqua;
+  border: 1px solid black;
+}

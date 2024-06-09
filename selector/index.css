@@ -1,0 +1,22 @@
+/* Bütün elementleri seçən selector */
+* {
+  background-color: aquamarine;
+}
+/* className-i həm list, həm də list1 olan elementin rengini dəyişən */
+.list1.list {
+  color: white;
+}
+/* Div-in içərisində olan bütün p elementlerinin renginin dəyişən */
+div > p {
+  color: blue;
+}
+/* P elementindən dərhal sonra gələn h5-in rengini deyişən */
+p + h5 {
+  color: purple;
+}
+/* body {
+  border: 1px solid black;
+} */
+/* .Heading5.h5 {
+  color: red;
+} */

@@ -1,0 +1,30 @@
+/* Universal selector */
+/* * selectoru htmlde olan butun elementlere tesir edir ve bu selector 
+vasitesile biz sifirlamararimizi edirik */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Atributlara aid selectorlar */
+
+/* elementin class atributu olanlari secir */
+[class] {
+  color: rgb(0, 234, 255);
+}
+[id] {
+  background-color: blue;
+}
+/* input elementinin type text-e baraber olanlari secir */
+input[type="text"] {
+  background-color: purple;
+}
+/* id-i par2 olanlarin secir */
+[id="par2"] {
+  color: yellow;
+}
+
+h2[class="heading2"] {
+  text-align: center;
+}

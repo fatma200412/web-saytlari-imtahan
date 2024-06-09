@@ -1,0 +1,14 @@
+/* Elementin id-i olan butun elementleri secir */
+[id] {
+  text-align: center;
+}
+/* id-in ozunu qeyd ederek ancaq o id-i secir */
+#par {
+  color: red;
+}
+/* elementin id atributu olan ve id-si h6-a beraber olani secir bu 
+ikinci yazi ile demek olar ki eynidir */
+[id="h6"] {
+  background-color: yellow;
+}
+

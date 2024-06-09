@@ -1,0 +1,12 @@
+.paragraf {
+  /* hsl(hue, saturation, lightness) */
+  color: hsl(0, 100%, 50%);
+  /* hsla(hue, saturation, lightness, alpha) */
+  background-color: hsla(0, 100%, 0%, 0.2);
+}
+/* 
+hue=>360 derecede rəngin dərəcəsini göstərir. 0 qirmizi, 120 yaşıl, 240 mavi rengdir
+saturation=>Rəngin doyma faizini gosterir, 0% boz, 100% da isə tam rengi alir
+lightness=>Rəngin işiqligini göstərir. 0% qara, 50% ne qara ne ağ, 100% isə ag reng
+alpha=>0 və 1in arasinda qiymət alır, rengin şəffafliğını gösterir
+*/
